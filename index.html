@@ -18,13 +18,20 @@
             margin: 0;
         }
 
-        /* .second-section {
-            outline: 2px solid salmon;
+
+        @media only screen and (max-width: 992px) {
+            .model-img img {
+                width: 350px;
+                height: 350px;
+            }
         }
 
-        .roow {
-            outline: 2px solid salmon;
-        } */
+        @media only screen and (min-width: 993px) {
+            .model-img img {
+                width: 549px;
+                height: 559px;
+            }
+        }
     </style>
 </head>
 
@@ -71,13 +78,13 @@
                     class="btn btn-lg text-white"><i class="fa-solid fa-cart-shopping"></i> Buy
                     Now</button>
             </div>
-            <div class="col-12 col-lg-6">
-                <img width="549px" height="559px" src="images/model.png" alt="">
+            <div class="col-12 col-lg-6 model-img">
+                <img src="images/model.png" alt="">
             </div>
         </div>
     </section>
 
-    <section class="second-section container mt-5">
+    <section class="second-section container mt-5 mb-2">
         <h3 class="fw-bolder ms-5">
             Woman Jacket
         </h3>
@@ -136,6 +143,69 @@
 
         </div>
     </section>
+
+    <section class="third-section container mt-5 mb-2">
+        <h3 class="fw-bolder ms-5">
+            Man Jacket
+        </h3>
+        <div class="row g-3 justify-content-center mt-4">
+            <div class="card col-12 col-lg-4 me-3 shadow-lg" style="width: 370px;">
+                <div style="width: 334px; width: 327px; background-color: #F1F1F1; border-radius: 20px;"
+                    class="bcg-1 align-items-center mx-auto mt-4 p-3">
+                    <img width="293px" height="293px" src="images/jacket-4.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Snowboard Jacket Mens</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="button-price row">
+                        <h3 style="color: #FABE4C;" class="col-12 col-lg-6 fw-bold">$234</h3>
+                        <button type="button" style="background-image: linear-gradient(#A4BC46, #85A019) ;"
+                            class="btn btn-lg text-white col-12 col-lg-6"><i class="fa-solid fa-cart-shopping"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-4 me-3 shadow-lg" style="width: 370px;">
+                <div style="width: 334px; width: 327px; background-color: #F1F1F1; border-radius: 20px;"
+                    class="bcg-1 align-items-center mx-auto mt-4 p-3">
+                    <img width="293px" height="293px" src="images/jacket-5.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Man Leather Jackets</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="button-price row">
+                        <h3 style="color: #FABE4C;" class="col-12 col-lg-6 fw-bold">$234</h3>
+                        <button type="button" style="background-image: linear-gradient(#A4BC46, #85A019) ;"
+                            class="btn btn-lg text-white col-12 col-lg-6"><i class="fa-solid fa-cart-shopping"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card col-12 col-lg-4 me-3 shadow-lg" style="width: 370px;">
+                <div style="width: 334px; width: 327px; background-color: #F1F1F1; border-radius: 20px;"
+                    class="bcg-1 align-items-center mx-auto mt-4 p-3">
+                    <img width="293px" height="293px" src="images/jacket-6.png" class="card-img-top" alt="...">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Man Casual Jackets</h5>
+                    <p class="card-text">Lorem Ipsum is simply dummy text of the
+                        printing and typesetting industry.</p>
+                    <div class="button-price row">
+                        <h3 style="color: #FABE4C;" class="col-12 col-lg-6 fw-bold">$234</h3>
+                        <button type="button" style="background-image: linear-gradient(#A4BC46, #85A019) ;"
+                            class="btn btn-lg text-white col-12 col-lg-6"><i class="fa-solid fa-cart-shopping"></i> Buy
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
